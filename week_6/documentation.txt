@@ -1,0 +1,19 @@
+Week 6 Documentation
+
+1. Why use protected variables?
+
+Protected variables allow subclasses to access the inherited data directly while preventing access from unrelated classes. This supports inheritance and code reusability.
+
+2. What is inheritance?
+
+Inheritance is an Object-Oriented Programming concept that allows one class to inherit the properties and methods of another class. It helps reduce code duplication and improves program organization.
+
+3. What is the advantage of using super()?
+
+The super() keyword is used to call the constructor of the parent class. It initializes inherited variables before adding the subclass-specific variables.
+
+4. Added Variable
+
+Department
+
+The Lecturer class includes an additional variable called department to store the lecturer's faculty or department. This provides more information about the lecturer and demonstrates how subclasses can extend the parent class.
